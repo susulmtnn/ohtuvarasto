@@ -1,4 +1,6 @@
 name: CI
+env:
+    CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
 on:
   push:
