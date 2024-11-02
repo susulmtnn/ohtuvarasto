@@ -66,7 +66,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_ota_kaikki(self):
         self.varasto=Varasto(8,8)
-        self.assertAlmostEqual(self.varasto.ota_varastosta(10),9)
+        self.assertAlmostEqual(self.varasto.ota_varastosta(10),8)
 
     def test_testaa__str__(self):
         varasto = Varasto(10, 8)
