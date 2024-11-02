@@ -73,5 +73,3 @@ class TestVarasto(unittest.TestCase):
         vastaus = "saldo = 8, vielä tilaa 2"
         self.assertEqual(str(varasto), vastaus)
 
-    #new comment
-
