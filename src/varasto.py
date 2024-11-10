@@ -5,7 +5,7 @@ class Varasto:
         else:
             # virheellinen, nollataan
             self.tilavuus = 0.0
-            print("this line is way way too long way too long long longlong.this line is way way too long way too long long longlong.this line is way way too long way too long long longlong.this line is way way too long way too long long longlong.this line is way way too long way too long long longlong.this line is way way too long way too long long longlong.")
+    
 
         if alku_saldo < 0.0:
             # virheellinen, nollataan
