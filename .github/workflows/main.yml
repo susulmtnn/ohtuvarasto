@@ -22,7 +22,7 @@ jobs:
         run: poetry install
       - name: Run tests
         run: poetry run coverage run --branch -m pytest
-      -name: Analysing the code with pylint
+      - name: Analysing the code with pylint
         run: poetry run pylint src
       - name: Coverage report
         run: poetry run coverage xml
